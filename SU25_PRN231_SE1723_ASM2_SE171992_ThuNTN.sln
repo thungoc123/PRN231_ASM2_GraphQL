@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDNA.Repositories.ThuNTN", "..\..\..\Documents\FPT Summer 2025\PRN231\SU25_PRN231_SE1723_SE171992_ThuNTN\MyDNA.Repositories.ThuNTN\MyDNA.Repositories.ThuNTN.csproj", "{DA4736E6-757E-448C-8E4C-27E717BF6199}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDNA.Services.ThuNTN", "..\..\..\Documents\FPT Summer 2025\PRN231\SU25_PRN231_SE1723_SE171992_ThuNTN\MyDNA.Services.ThuNTN\MyDNA.Services.ThuNTN.csproj", "{F8735D46-33AA-4E67-9732-57DB626B85A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDNA.GraphQLAPIService.ThuNTN", "MyDNA.GraphQLAPIService.ThuNTN\MyDNA.GraphQLAPIService.ThuNTN.csproj", "{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDNA.GraphQLClients.BlazorWAS.ThuNTN", "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj", "{44810D91-E3A4-44CA-AF4B-685BC558E52F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA4736E6-757E-448C-8E4C-27E717BF6199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4736E6-757E-448C-8E4C-27E717BF6199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4736E6-757E-448C-8E4C-27E717BF6199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4736E6-757E-448C-8E4C-27E717BF6199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8735D46-33AA-4E67-9732-57DB626B85A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8735D46-33AA-4E67-9732-57DB626B85A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8735D46-33AA-4E67-9732-57DB626B85A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8735D46-33AA-4E67-9732-57DB626B85A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44810D91-E3A4-44CA-AF4B-685BC558E52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44810D91-E3A4-44CA-AF4B-685BC558E52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44810D91-E3A4-44CA-AF4B-685BC558E52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44810D91-E3A4-44CA-AF4B-685BC558E52F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9610453-5C7E-4D19-8CAB-807D86F49F89}
+	EndGlobalSection
+EndGlobal

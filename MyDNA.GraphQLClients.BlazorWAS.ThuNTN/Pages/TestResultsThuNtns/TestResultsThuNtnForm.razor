@@ -1,0 +1,90 @@
+﻿  @page "/TestResultsThuNtnForm"
+  @using MyDNA.GraphQLClients.BlazorWAS.ThuNTN.Models
+  @inject NavigationManager Navigation
+  @inject MyDNA.GraphQLClients.BlazorWAS.ThuNTN.GraphQLClients.GraphQLConsumer _graphQLConsumer
+
+  <h3 class="mb-3">Create New Test Result</h3>
+
+  <EditForm Model="testResult" OnValidSubmit="HandleValidSubmit">
+      <DataAnnotationsValidator />
+
+      <div class="mb-3">
+          <label class="form-label">Order ID</label>
+          <InputNumber class="form-control" @bind-Value="testResult.OrderId" />
+      </div>
+
+      <div class="mb-3">
+          <label class="form-label">Result Version</label>
+          <InputNumber class="form-control" @bind-Value="testResult.ResultVersion" />
+      </div>
+
+      <div class="mb-3">
+          <label class="form-label">Result Summary</label>
+          <InputText class="form-control" @bind-Value="testResult.ResultSummary" />
+      </div>
+
+      <div class="mb-3">
+          <label class="form-label">Result Detail</label>
+          <InputTextArea class="form-control" @bind-Value="testResult.ResultDetail" />
+      </div>
+
+      <div class="mb-3">
+          <label class="form-label">Result File URL</label>
+          <InputText class="form-control" @bind-Value="testResult.ResultFileUrl" />
+      </div>
+
+      <div class="mb-3">
+          <label class="form-label">Issued By</label>
+          <InputText class="form-control" @bind-Value="testResult.IssuedBy" />
+      </div>
+
+      <div class="mb-3">
+          <label class="form-label">Result Status</label>
+          <InputText class="form-control" @bind-Value="testResult.ResultStatus" />
+      </div>
+
+      <div class="mb-3">
+          <label class="form-label">Completed At</label>
+          <InputDate class="form-control" @bind-Value="testResult.CompletedAt" />
+      </div>
+
+      <div class="mb-3">
+          <label class="form-label">Created At</label>
+          <InputDate class="form-control" @bind-Value="testResult.CreatedAt" />
+      </div>
+
+      <button type="submit" class="btn btn-primary me-2">Submit</button>
+      <button type="button" class="btn btn-secondary" @onclick="GoBack">Cancel</button>
+  </EditForm>
+
+  @code {
+      private TestResultsThuNtn testResult = new();
+
+      private async Task HandleValidSubmit()
+      {
+          try
+          {
+              int newId = await _graphQLConsumer.CreateTestResultThuNtn(testResult);
+
+              if (newId > 0)
+              {
+                  Console.WriteLine($"Created Test Result ID: {newId}");
+                  Navigation.NavigateTo("/TestResultsThuNtnList");
+              }
+              else
+              {
+                  Console.WriteLine("Không tạo được bản ghi.");
+              }
+          }
+          catch (Exception ex)
+          {
+              Console.WriteLine("Lỗi khi gửi dữ liệu: " + ex.Message);
+          }
+      }
+
+      private void GoBack()
+      {
+          Navigation.NavigateTo("/TestResultsThuNtnList");
+      }
+  }
+ 

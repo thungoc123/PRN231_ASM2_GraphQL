@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.props" />
+</Project>
