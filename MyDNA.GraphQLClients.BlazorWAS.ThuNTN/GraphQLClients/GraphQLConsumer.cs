@@ -2,14 +2,16 @@
 using GraphQL.Client.Abstractions;
 using MyDNA.GraphQLClients.BlazorWAS.ThuNTN.Models;
 
+using LoginResponse = MyDNA.GraphQLClients.BlazorWAS.ThuNTN.Models.LoginResponse;
+
 
 namespace MyDNA.GraphQLClients.BlazorWAS.ThuNTN.GraphQLClients
 {
     public class GraphQLConsumer
     {
-        private readonly IGraphQLClient _graphQLClient;
+        private readonly GraphQLClientProvider _graphQLClient;
 
-        public GraphQLConsumer(IGraphQLClient graphQLClient) => _graphQLClient = graphQLClient;
+        public GraphQLConsumer(GraphQLClientProvider graphQLClient) => _graphQLClient = graphQLClient;
 
         public async Task<List<TestResultsThuNtn>> getTestResultsThuNtn()
         {
@@ -33,8 +35,9 @@ namespace MyDNA.GraphQLClients.BlazorWAS.ThuNTN.GraphQLClients
                     }
                 }"
                 };
+                var client = await _graphQLClient.GetClientAsync();
 
-                var response = await _graphQLClient.SendQueryAsync<TestResultsThuNtnResponse>(request);
+                var response = await client.SendQueryAsync<TestResultsThuNtnResponse>(request);
                 return response?.Data?.allTestResults ?? new List<TestResultsThuNtn>();
             }
             catch (Exception ex)
@@ -49,10 +52,26 @@ namespace MyDNA.GraphQLClients.BlazorWAS.ThuNTN.GraphQLClients
         {
             try
             {
-                var query = $@"query TestResultById($id: Int!) {{    testResultThuNtn(testResultThuNtnid: $id) {{        testResultThuNtnid        orderId        resultVersion        resultSummary       resultDetail        resultFileUrl        issuedBy        completedAt        createdAt        resultStatus    }} }}";
-                var response = await _graphQLClient.SendQueryAsync<TestResultsThuNtnResponse>(query, new { id });
+                var query = $@"query TestResultById($id: Int!) {{
+                        testResultById(id: $id) {{
+                            testResultThuNtnid
+                            orderId
+                            resultVersion
+                            resultSummary
+                            resultDetail
+                            resultFileUrl
+                            issuedBy
+                            completedAt
+                            createdAt
+                            resultStatus
+                        }}
+                    }}";
 
-                return response?.Data?.allTestResults?.FirstOrDefault();
+                var client = await _graphQLClient.GetClientAsync();
+
+                var response = await client.SendQueryAsync<TestResultsThuNtnDetailResponse>(query, new { id });
+
+                return response?.Data.testResultById;
             }
             catch (Exception ex)
             {
@@ -67,29 +86,32 @@ namespace MyDNA.GraphQLClients.BlazorWAS.ThuNTN.GraphQLClients
                 var request = new GraphQLRequest
                 {
                     Query = @"
-                mutation CreateTestResultThuNtn($input: TestResultsThuNtnInput!) {
-                    createTestResultThuNtn(testResult: $input)
-                }",
+        mutation CreateTestResult($input: TestResultsThuNtnInput!) {
+            createTestResult(testResultsThuNtn: $input)
+        }",
                     Variables = new
                     {
                         input = new
                         {
+                            testResultThuNtnid = testResult.TestResultThuNtnid, // <-- để mặc định
                             orderId = testResult.OrderId,
                             resultVersion = testResult.ResultVersion,
                             resultSummary = testResult.ResultSummary,
                             resultDetail = testResult.ResultDetail,
                             resultFileUrl = testResult.ResultFileUrl,
                             issuedBy = testResult.IssuedBy,
-                            completedAt = testResult.CompletedAt,
-                            createdAt = testResult.CreatedAt,
+                            completedAt = testResult.CompletedAt?.ToUniversalTime(), // <-- để mặc định
+                            createdAt = testResult.CreatedAt?.ToUniversalTime(),
                             resultStatus = testResult.ResultStatus
                         }
                     }
                 };
 
-                var response = await _graphQLClient.SendMutationAsync<CreateTestResultResponse>(request);
+                var client = await _graphQLClient.GetClientAsync();
 
-                return response?.Data?.createTestResultThuNtn ?? 0;
+                var response = await client.SendMutationAsync<CreateTestResultResponse>(request);
+
+                return response?.Data?.createTestResult ?? 0;
             }
             catch (Exception ex)
             {
@@ -99,6 +121,101 @@ namespace MyDNA.GraphQLClients.BlazorWAS.ThuNTN.GraphQLClients
         }
 
 
+        public async Task<int> UpdateTestResultThuNtn(TestResultsThuNtn testResult)
+        {
+            try
+            {
+                var request = new GraphQLRequest
+                {
+                    Query = @"
+mutation UpdateTestResult($input: TestResultsThuNtnInput!) {
+    updateTestResult(testResultsThuNtn: $input)
+}",
+                    Variables = new
+                    {
+                        input = new
+                        {
+                            testResultThuNtnid = testResult.TestResultThuNtnid, // bắt buộc phải có ID khi update
+                            orderId = testResult.OrderId,
+                            resultVersion = testResult.ResultVersion,
+                            resultSummary = testResult.ResultSummary,
+                            resultDetail = testResult.ResultDetail,
+                            resultFileUrl = testResult.ResultFileUrl,
+                            issuedBy = testResult.IssuedBy,
+                            completedAt = testResult.CompletedAt?.ToUniversalTime(),
+                            createdAt = testResult.CreatedAt?.ToUniversalTime(),
+                            resultStatus = testResult.ResultStatus
+                        }
+                    }
+                };
+                var client = await _graphQLClient.GetClientAsync();
 
+                var response = await client.SendMutationAsync<UpdateTestResultResponse>(request);
+
+                return response?.Data?.updateTestResult ?? 0;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi khi gọi mutation UpdateTestResult: " + ex.Message);
+                return 0;
+            }
+        }
+
+        public async Task<bool> deleteTestResult(int id)
+        {
+            try
+            {
+                var request = new GraphQLRequest
+                {
+                    Query = @"
+                mutation DeleteTestResult($id: Int!) {
+                    deleteTestResult(id: $id)
+                }
+            ",
+                    Variables = new { id }
+                };
+                var client = await _graphQLClient.GetClientAsync();
+                var response = await client.SendMutationAsync<deleteTestResultResponse>(request);
+                return response.Data.deleteTestResult;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi khi xóa kết quả xét nghiệm: " + ex.Message);
+                return false;
+            }
+        }
+
+        public async Task<LoginResponse> LoginAsync(string email, string password)
+        {
+            var request = new GraphQLRequest
+            {
+                Query = @"
+mutation Login($username: String!, $password: String!) {
+  login(username: $username, password: $password) {
+    token
+    fullName
+    role
+  }
+}",
+                Variables = new
+                {
+                    username = email,
+                    password = password
+                }
+            };
+            var client = await _graphQLClient.GetClientAsync();
+
+            var response = await client.SendMutationAsync<LoginResponseWithUserAccount>(request);
+
+            var loginData = response.Data?.login;
+
+           
+
+            return loginData;
+        }
     }
+
+
 }
+
+

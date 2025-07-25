@@ -1,7 +1,115 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\pages\\rolechecker.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\pages\\rolechecker.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\pages\\forbidden.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\pages\\forbidden.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\pages\\notauthorizeddisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\pages\\notauthorizeddisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\helper\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\helper\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\pages\\login\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\pages\\login\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\pages\\testresultsthuntns\\testresultsthuntnform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\pages\\testresultsthuntns\\testresultsthuntnform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\pages\\testresultsthuntns\\testresultsthuntndetail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\pages\\testresultsthuntns\\testresultsthuntndetail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\mydna.graphqlclients.blazorwas.thuntn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\mydna.graphqlclients.blazorwas.thuntn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\pages\\testresultsthuntns\\testresultsthuntnlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\pages\\testresultsthuntns\\testresultsthuntnlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\graphqlclients\\graphqlclientprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\graphqlclients\\graphqlclientprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}|MyDNA.GraphQLAPIService.ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlapiservice.thuntn\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}|MyDNA.GraphQLAPIService.ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN.csproj|solutionrelative:mydna.graphqlapiservice.thuntn\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}|MyDNA.GraphQLAPIService.ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlapiservice.thuntn\\graphqls\\queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}|MyDNA.GraphQLAPIService.ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN.csproj|solutionrelative:mydna.graphqlapiservice.thuntn\\graphqls\\queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}|MyDNA.GraphQLAPIService.ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlapiservice.thuntn\\graphqls\\mutations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}|MyDNA.GraphQLAPIService.ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN.csproj|solutionrelative:mydna.graphqlapiservice.thuntn\\graphqls\\mutations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}|MyDNA.GraphQLAPIService.ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlapiservice.thuntn\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}|MyDNA.GraphQLAPIService.ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN.csproj|solutionrelative:mydna.graphqlapiservice.thuntn\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}|MyDNA.GraphQLAPIService.ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlapiservice.thuntn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}|MyDNA.GraphQLAPIService.ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN.csproj|solutionrelative:mydna.graphqlapiservice.thuntn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8735D46-33AA-4E67-9732-57DB626B85A3}|..\\..\\..\\Documents\\FPT Summer 2025\\PRN231\\SU25_PRN231_SE1723_SE171992_ThuNTN\\MyDNA.Services.ThuNTN\\MyDNA.Services.ThuNTN.csproj|c:\\users\\admin\\documents\\fpt summer 2025\\prn231\\su25_prn231_se1723_se171992_thuntn\\mydna.services.thuntn\\serviceproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\models\\systemuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\models\\systemuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}|MyDNA.GraphQLAPIService.ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlapiservice.thuntn\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65E8DAF4-84C7-4B15-B858-84E2C4A8D7C3}|MyDNA.GraphQLAPIService.ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN.csproj|solutionrelative:mydna.graphqlapiservice.thuntn\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm2_se171992_thuntn\\mydna.graphqlclients.blazorwas.thuntn\\models\\testresultsthuntn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44810D91-E3A4-44CA-AF4B-685BC558E52F}|MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj|solutionrelative:mydna.graphqlclients.blazorwas.thuntn\\models\\testresultsthuntn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +117,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +142,345 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleChecker.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\RoleChecker.razor",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\RoleChecker.razor",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\RoleChecker.razor",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\RoleChecker.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T04:10:58.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\App.razor",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\App.razor",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\App.razor",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T15:33:42.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Program.cs",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Program.cs",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T14:43:26.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T15:38:47.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotAuthorizedDisplay.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\NotAuthorizedDisplay.razor",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\NotAuthorizedDisplay.razor",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\NotAuthorizedDisplay.razor",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\NotAuthorizedDisplay.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T03:33:38.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomAuthStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Helper\\CustomAuthStateProvider.cs",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Helper\\CustomAuthStateProvider.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Helper\\CustomAuthStateProvider.cs",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Helper\\CustomAuthStateProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T15:01:39.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T15:33:57.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestResultsThuNtnForm.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\TestResultsThuNtns\\TestResultsThuNtnForm.razor",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\TestResultsThuNtns\\TestResultsThuNtnForm.razor",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\TestResultsThuNtns\\TestResultsThuNtnForm.razor",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\TestResultsThuNtns\\TestResultsThuNtnForm.razor",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T03:33:52.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Forbidden.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Forbidden.razor",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Forbidden.razor",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Forbidden.razor",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Forbidden.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T03:45:28.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Login\\Login.razor",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Login\\Login.razor",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Login\\Login.razor",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Login\\Login.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T14:27:38.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Counter.razor",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T15:33:34.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Home.razor",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T15:33:16.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-24T14:58:49.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TestResultsThuNtnList.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\TestResultsThuNtns\\TestResultsThuNtnList.razor",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\TestResultsThuNtns\\TestResultsThuNtnList.razor",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\TestResultsThuNtns\\TestResultsThuNtnList.razor",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\TestResultsThuNtns\\TestResultsThuNtnList.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T15:12:21.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TestResultsThuNtnDetail.razor",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\TestResultsThuNtns\\TestResultsThuNtnDetail.razor",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\TestResultsThuNtns\\TestResultsThuNtnDetail.razor",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\TestResultsThuNtns\\TestResultsThuNtnDetail.razor",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Pages\\TestResultsThuNtns\\TestResultsThuNtnDetail.razor",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAADMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T19:02:00.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\wwwroot\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\wwwroot\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-24T14:43:45.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GraphQLClientProvider.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\GraphQLClients\\GraphQLClientProvider.cs",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\GraphQLClients\\GraphQLClientProvider.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\GraphQLClients\\GraphQLClientProvider.cs",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\GraphQLClients\\GraphQLClientProvider.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T14:47:08.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN\\appsettings.json",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLAPIService.ThuNTN\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN\\appsettings.json",
+              "RelativeToolTip": "MyDNA.GraphQLAPIService.ThuNTN\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-24T13:28:08.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:18:49.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Queries.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN\\GraphQLs\\Queries.cs",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLAPIService.ThuNTN\\GraphQLs\\Queries.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN\\GraphQLs\\Queries.cs",
+              "RelativeToolTip": "MyDNA.GraphQLAPIService.ThuNTN\\GraphQLs\\Queries.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:23:55.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLAPIService.ThuNTN\\Models\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "MyDNA.GraphQLAPIService.ThuNTN\\Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:21:10.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ServiceProviders.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\FPT Summer 2025\\PRN231\\SU25_PRN231_SE1723_SE171992_ThuNTN\\MyDNA.Services.ThuNTN\\ServiceProviders.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\FPT Summer 2025\\PRN231\\SU25_PRN231_SE1723_SE171992_ThuNTN\\MyDNA.Services.ThuNTN\\ServiceProviders.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\FPT Summer 2025\\PRN231\\SU25_PRN231_SE1723_SE171992_ThuNTN\\MyDNA.Services.ThuNTN\\ServiceProviders.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\FPT Summer 2025\\PRN231\\SU25_PRN231_SE1723_SE171992_ThuNTN\\MyDNA.Services.ThuNTN\\ServiceProviders.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:22:06.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SystemUserAccount.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Models\\SystemUserAccount.cs",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Models\\SystemUserAccount.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Models\\SystemUserAccount.cs",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Models\\SystemUserAccount.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAzwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:23:32.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Mutations.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN\\GraphQLs\\Mutations.cs",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLAPIService.ThuNTN\\GraphQLs\\Mutations.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN\\GraphQLs\\Mutations.cs",
+              "RelativeToolTip": "MyDNA.GraphQLAPIService.ThuNTN\\GraphQLs\\Mutations.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAkwDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:19:39.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN\\Program.cs",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLAPIService.ThuNTN\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN\\Program.cs",
+              "RelativeToolTip": "MyDNA.GraphQLAPIService.ThuNTN\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:34:13.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLAPIService.ThuNTN\\Models\\Class.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLAPIService.ThuNTN\\Models\\Class.cs",
+              "RelativeToolTip": "MyDNA.GraphQLAPIService.ThuNTN\\Models\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:21:19.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TestResultsThuNtn.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Models\\TestResultsThuNtn.cs",
+              "RelativeDocumentMoniker": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Models\\TestResultsThuNtn.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Models\\TestResultsThuNtn.cs",
+              "RelativeToolTip": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\Models\\TestResultsThuNtn.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:13:03.756Z"
             }
           ]
         }

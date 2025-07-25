@@ -30,8 +30,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/admin/source/repos/SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN/MyDNA.GraphQLClients.BlazorWAS.ThuNTN/Pages/Forbidden.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9yYmlkZGVuLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/admin/source/repos/SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN/MyDNA.GraphQLClients.BlazorWAS.ThuNTN/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN/MyDNA.GraphQLClients.BlazorWAS.ThuNTN/Pages/Login/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN/MyDNA.GraphQLClients.BlazorWAS.ThuNTN/Pages/NotAuthorizedDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90QXV0aG9yaXplZERpc3BsYXkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN/MyDNA.GraphQLClients.BlazorWAS.ThuNTN/Pages/RoleChecker.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZUNoZWNrZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/admin/source/repos/SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN/MyDNA.GraphQLClients.BlazorWAS.ThuNTN/Pages/TestResultsThuNtns/TestResultsThuNtnDetail.razor]

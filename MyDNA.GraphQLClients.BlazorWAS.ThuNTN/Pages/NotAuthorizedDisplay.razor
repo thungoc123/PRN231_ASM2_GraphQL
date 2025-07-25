@@ -1,0 +1,19 @@
+﻿@using System.Security.Claims
+@inject CustomAuthStateProvider AuthProvider
+@inject NavigationManager Nav
+@using Microsoft.AspNetCore.Components.Authorization
+@using MyDNA.GraphQLClients.BlazorWAS.ThuNTN.Pages
+<AuthorizeView>
+    <Authorized>
+        <RoleChecker />
+    </Authorized>
+    <NotAuthorized>
+        @code {
+            protected override void OnInitialized()
+            {
+                Nav.NavigateTo("/login", true);
+            }
+        }
+    </NotAuthorized>
+</AuthorizeView>
+

@@ -10,6 +10,11 @@
     <PackageReference Include="HotChocolate.AspNetCore" Version="15.1.5" />
     <PackageReference Include="HotChocolate.Data" Version="15.1.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.5">
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		  <PrivateAssets>all</PrivateAssets>
+	  </PackageReference>
   </ItemGroup>
 
   <ItemGroup>

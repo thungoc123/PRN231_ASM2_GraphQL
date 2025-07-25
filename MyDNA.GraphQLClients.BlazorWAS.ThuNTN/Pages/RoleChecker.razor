@@ -1,0 +1,20 @@
+﻿@inject CustomAuthStateProvider AuthProvider
+@inject NavigationManager Nav
+@using System.Security.Claims
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        var roles = user.Claims
+            .Where(c => c.Type == ClaimTypes.Role)
+            .Select(c => c.Value);
+
+        if (!(roles.Contains("1") || roles.Contains("2")))
+        {
+            Nav.NavigateTo("/forbidden", true);
+        }
+    }
+}

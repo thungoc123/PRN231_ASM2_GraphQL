@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sg15mnDbZ8g=",
+  "dgSpecHash": "3PlJW7Bwkrk=",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.10\\microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.10\\microsoft.aspnetcore.components.8.0.10.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.10\\microsoft.aspnetcore.components.analyzers.8.0.10.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\8.0.0\\microsoft.aspnetcore.components.authorization.8.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.10\\microsoft.aspnetcore.components.forms.8.0.10.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.10\\microsoft.aspnetcore.components.web.8.0.10.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.10\\microsoft.aspnetcore.components.webassembly.8.0.10.nupkg.sha512",

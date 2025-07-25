@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eTULM2cGbZGzGnjA/B7mw0VUM92M6PY0CzrvPdQ/iw0=",
+  "Hash": "jQDheLUxwh3dSSWPLJTvcMyYet5iYNR8RLgnbyW8Uj0=",
   "Source": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN",
   "BasePath": "/",
   "Mode": "Root",
@@ -376,6 +376,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\obj\\Debug\\net8.0\\webcil\\Microsoft.AspNetCore.Authorization.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm",
+      "SourceId": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\obj\\Debug\\net8.0\\webcil\\Microsoft.AspNetCore.Components.Authorization.wasm"
     },
     {
       "Identity": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.wasm",
@@ -7254,6 +7273,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.TextWriterTraceListener.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\obj\\Debug\\net8.0\\compressed\\sc1oen2b6i.gz",
+      "SourceId": "MyDNA.GraphQLClients.BlazorWAS.ThuNTN",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.wasm"
     },
     {
       "Identity": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\\obj\\Debug\\net8.0\\compressed\\smeh9klzhq.gz",

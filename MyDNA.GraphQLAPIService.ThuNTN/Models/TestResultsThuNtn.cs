@@ -30,6 +30,29 @@ public partial class TestResultsThuNtn
     public virtual TestOrdersThuNtn? Order { get; set; }
 }
 
+public partial class TestResultsThuNtnInputabc
+{
+
+    public int OrderId { get; set; }
+
+    public int ResultVersion { get; set; }
+
+    public string ResultSummary { get; set; }
+
+    public string ResultDetail { get; set; }
+
+    public string ResultFileUrl { get; set; }
+
+    public string IssuedBy { get; set; }
+
+    public DateTime? CompletedAt { get; set; }
+
+    public DateTime? CreatedAt { get; set; }
+
+    public string ResultStatus { get; set; }
+
+    public virtual TestOrdersThuNtn? Order { get; set; }
+}
 public partial class TestResultsThuNtnResponse
 {
     public List<TestResultsThuNtn> allTestResults { get; set; }

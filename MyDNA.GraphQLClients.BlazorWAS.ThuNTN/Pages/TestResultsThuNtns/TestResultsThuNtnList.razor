@@ -1,5 +1,9 @@
-﻿@using MyDNA.GraphQLClients.BlazorWAS.ThuNTN.Models
+﻿@using Microsoft.AspNetCore.Authorization
+
+@using MyDNA.GraphQLClients.BlazorWAS.ThuNTN.Models
 @page "/TestResultsThuNtnList"
+@attribute [Authorize]
+
 @if (allTestResults == null)
 {
         <div>Page loading...</div>    
@@ -36,7 +40,9 @@ else
                         <td>@(result.CreatedAt?.ToString("dd/MM/yyyy") ?? "N/A")</td>
                         <td>
                             <div class="btn-group" role="group">
-                                <a href="@result.ResultFileUrl" class="btn btn-sm btn-primary" target="_blank">View File</a>
+                            <a class="btn btn-sm btn-success" href="/TestResultsThuNtnDetail/@result.TestResultThuNtnid">Chi tiết</a>
+                            <a href="@result.ResultFileUrl" class="btn btn-sm btn-primary" target="_blank">View File</a>
+                            <a class="btn btn-sm btn-success" href="/TestResultsThuNtnForm/@result.TestResultThuNtnid">Cập nhật</a>
                             </div>
                         </td>
                     </tr>

@@ -30,12 +30,26 @@ public partial class TestResultsThuNtn
     public virtual TestOrdersThuNtn? Order { get; set; }
 }
 
+
 public partial class TestResultsThuNtnResponse
 {
     public List<TestResultsThuNtn> allTestResults { get; set; }
 }
-
+public partial class TestResultsThuNtnDetailResponse
+{
+    public TestResultsThuNtn testResultById { get; set; }
+}
 public class CreateTestResultResponse
 {
-    public int createTestResultThuNtn { get; set; }
+    public int createTestResult { get; set; }
+}
+
+public class UpdateTestResultResponse
+{
+    public int updateTestResult { get; set; }
+}
+
+public class deleteTestResultResponse
+{
+    public bool deleteTestResult { get; set; }
 }

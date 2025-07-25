@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyDNA.GraphQLClients.BlazorWAS.ThuNTN")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c06ff5c77d839baa55747385fd37e8ba9057f2c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7141feffea01ff53a52662ddd4945541f0b68c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyDNA.GraphQLClients.BlazorWAS.ThuNTN")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyDNA.GraphQLClients.BlazorWAS.ThuNTN")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

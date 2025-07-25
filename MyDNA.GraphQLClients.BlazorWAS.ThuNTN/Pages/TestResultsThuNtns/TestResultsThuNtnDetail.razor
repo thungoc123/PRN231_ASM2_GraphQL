@@ -1,5 +1,124 @@
-﻿<h3>TestResultsThuNtnDetail</h3>
+﻿  @using Microsoft.AspNetCore.Authorization
+@using MyDNA.GraphQLClients.BlazorWAS.ThuNTN.Models
+@page "/TestResultsThuNtnDetail/{Id:int}"
+@attribute [Authorize]
+
+<h3>Chi tiết kết quả xét nghiệm</h3>
+
+@if (isLoading)
+{
+    <p>Đang tải dữ liệu...</p>
+}
+else if (testResultById == null)
+{
+    <p class="text-danger">Không tìm thấy kết quả xét nghiệm.</p>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <tr>
+                <th>Mã kết quả</th>
+                <td>@testResultById.TestResultThuNtnid</td>
+            </tr>
+            <tr>
+                <th>Mã đơn hàng</th>
+                <td>@testResultById.OrderId</td>
+            </tr>
+            <tr>
+                <th>Phiên bản</th>
+                <td>@testResultById.ResultVersion</td>
+            </tr>
+            <tr>
+                <th>Tóm tắt kết quả</th>
+                <td>@testResultById.ResultSummary</td>
+            </tr>
+            <tr>
+                <th>Chi tiết kết quả</th>
+                <td>@testResultById.ResultDetail</td>
+            </tr>
+            <tr>
+                <th>File kết quả</th>
+                <td>
+                    @if (!string.IsNullOrEmpty(testResultById.ResultFileUrl))
+                    {
+                        <a href="@testResultById.ResultFileUrl" target="_blank">Xem file</a>
+                    }
+                    else
+                    {
+                        <span>Không có</span>
+                    }
+                </td>
+            </tr>
+            <tr>
+                <th>Người phát hành</th>
+                <td>@testResultById.IssuedBy</td>
+            </tr>
+            <tr>
+                <th>Ngày hoàn thành</th>
+                <td>@testResultById.CompletedAt?.ToString("dd/MM/yyyy HH:mm")</td>
+            </tr>
+            <tr>
+                <th>Ngày tạo</th>
+                <td>@testResultById.CreatedAt?.ToString("dd/MM/yyyy HH:mm")</td>
+            </tr>
+            <tr>
+                <th>Trạng thái</th>
+                <td>@testResultById.ResultStatus</td>
+            </tr>
+        </table>
+        <div class="mb-3">
+            <button class="btn btn-danger" @onclick="OnDeleteClick">Xóa kết quả</button>
+        </div>
+
+    </div>
+}
 
 @code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private TestResultsThuNtn testResultById;
+    private bool isLoading = true;
+   
+   
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Console.WriteLine("Đã tới đây");
+
+            testResultById = await _graphQLConsumer.getTestResultById(Id);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Lỗi khi lấy kết quả: " + ex.Message);
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private async Task OnDeleteClick()
+    {
+        if (testResultById == null)
+            return;
+
+        bool confirm = await _jsRuntime.InvokeAsync<bool>("confirm", "Bạn có chắc chắn muốn xóa kết quả này?");
+
+        if (confirm)
+        {
+            try
+            {
+                await _graphQLConsumer.deleteTestResult(testResultById.TestResultThuNtnid);
+                _navigationManager.NavigateTo("/TestResultsThuNtnList", forceLoad: true);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi khi xóa kết quả: " + ex.Message);
+            }
+        }
+    }
 
 }

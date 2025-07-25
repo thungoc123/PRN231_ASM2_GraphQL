@@ -1,0 +1,56 @@
+﻿@page "/login"
+@inject NavigationManager Navigation
+@inject IJSRuntime JS
+@inject CustomAuthStateProvider CustomAuthProvider
+
+<h3>Đăng nhập</h3>
+
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label>Email</label>
+        <InputText class="form-control" @bind-Value="loginModel.Email" />
+    </div>
+
+    <div class="mb-3">
+        <label>Password</label>
+        <InputText class="form-control" type="password" @bind-Value="loginModel.Password" />
+    </div>
+
+    <button class="btn btn-primary" type="submit">Đăng nhập</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger mt-3">@errorMessage</div>
+}
+
+@code {
+    private LoginModel loginModel = new();
+    private string? errorMessage;
+
+    public class LoginModel
+    {
+        public string Email { get; set; } = "";
+        public string Password { get; set; } = "";
+    }
+    private async Task HandleLogin()
+    {
+        var data = await _graphQLConsumer.LoginAsync(loginModel.Email, loginModel.Password);
+        if (data != null && !string.IsNullOrWhiteSpace(data.Token))
+        {
+            var expire = DateTime.UtcNow.AddDays(7).ToString("R");
+            await _jsRuntime.InvokeVoidAsync("eval", $"document.cookie = 'authToken={data.Token}; path=/; expires={expire}'");
+            await CustomAuthProvider.MarkUserAsAuthenticated(data.Token);
+
+            Navigation.NavigateTo("/TestResultsThuNtnList", true);
+        }
+        else
+        {
+            errorMessage = "Sai thông tin đăng nhập.";
+        }
+    }
+    
+}

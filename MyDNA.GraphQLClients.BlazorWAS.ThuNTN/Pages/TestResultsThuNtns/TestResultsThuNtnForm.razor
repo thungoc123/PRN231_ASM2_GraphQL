@@ -1,4 +1,8 @@
-﻿  @page "/TestResultsThuNtnForm"
+﻿  @using Microsoft.AspNetCore.Authorization
+
+  @page "/TestResultsThuNtnForm/{Id:int?}"
+    @attribute [Authorize(Roles = "1,2")]
+
   @using MyDNA.GraphQLClients.BlazorWAS.ThuNTN.Models
   @inject NavigationManager Navigation
   @inject MyDNA.GraphQLClients.BlazorWAS.ThuNTN.GraphQLClients.GraphQLConsumer _graphQLConsumer
@@ -38,10 +42,16 @@
           <InputText class="form-control" @bind-Value="testResult.IssuedBy" />
       </div>
 
-      <div class="mb-3">
-          <label class="form-label">Result Status</label>
-          <InputText class="form-control" @bind-Value="testResult.ResultStatus" />
-      </div>
+    <div class="mb-3">
+        <label class="form-label">Result Status</label>
+        <InputSelect class="form-control" @bind-Value="testResult.ResultStatus">
+            <option value="">-- Chọn trạng thái --</option>
+            <option value="approved">Approved</option>
+            <option value="pending">Pending</option>
+            <option value="Chờ xử lý">Chờ xử lý</option>
+        </InputSelect>
+    </div>
+
 
       <div class="mb-3">
           <label class="form-label">Completed At</label>
@@ -57,34 +67,90 @@
       <button type="button" class="btn btn-secondary" @onclick="GoBack">Cancel</button>
   </EditForm>
 
-  @code {
-      private TestResultsThuNtn testResult = new();
+@code {
+    private TestResultsThuNtn testResult = new();
+    private List<TestResultsThuNtn> allTestResults;
 
-      private async Task HandleValidSubmit()
-      {
-          try
-          {
-              int newId = await _graphQLConsumer.CreateTestResultThuNtn(testResult);
+    // đây là phần cho update
+    [Parameter]
+    public int? Id { get; set; }
 
-              if (newId > 0)
-              {
-                  Console.WriteLine($"Created Test Result ID: {newId}");
-                  Navigation.NavigateTo("/TestResultsThuNtnList");
-              }
-              else
-              {
-                  Console.WriteLine("Không tạo được bản ghi.");
-              }
-          }
-          catch (Exception ex)
-          {
-              Console.WriteLine("Lỗi khi gửi dữ liệu: " + ex.Message);
-          }
-      }
+    private bool isEditMode => Id.HasValue;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (isEditMode)
+        {
+            try
+            {
+                // Gọi API để lấy dữ liệu testResult theo ID
+                var result = await _graphQLConsumer.getTestResultById(Id.Value);
+                if (result != null)
+                {
+                    testResult = result;
+                }
+                else
+                {
+                    Console.WriteLine($"Không tìm thấy bản ghi với ID: {Id}");
+                    Navigation.NavigateTo("/TestResultsThuNtnList");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi khi lấy dữ liệu bản ghi: " + ex.Message);
+            }
+        }
+    }
+
+
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            if (isEditMode)
+            {
+                //Update
+                int updated = await _graphQLConsumer.UpdateTestResultThuNtn(testResult);
+                if (updated > 0 )
+                {
+                    Console.WriteLine($"Đã cập nhật bản ghi ID: {testResult.TestResultThuNtnid}");
+                    Navigation.NavigateTo("/TestResultsThuNtnList");
+                }
+                else
+                {
+                    Console.WriteLine("Cập nhật thất bại.");
+                }
+            }
+            else
+            {
+                // Create
+                int newId = await _graphQLConsumer.CreateTestResultThuNtn(testResult);
+                if (newId > 0)
+                {
+                    Console.WriteLine($"Tạo bản ghi mới với ID: {newId}");
+                    Navigation.NavigateTo("/TestResultsThuNtnList");
+                }
+                else
+                {
+                    Console.WriteLine("Không tạo được bản ghi.");
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Lỗi khi gửi dữ liệu: " + ex.Message);
+        }
+    }
+
 
       private void GoBack()
       {
           Navigation.NavigateTo("/TestResultsThuNtnList");
       }
-  }
+
+  
+
+
+}
  

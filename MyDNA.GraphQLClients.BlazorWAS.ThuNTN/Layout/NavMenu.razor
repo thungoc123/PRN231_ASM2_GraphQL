@@ -1,4 +1,7 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@inject NavigationManager Navigation
+@inject IJSRuntime JS
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">MyDNA.GraphQLClients.BlazorWAS.ThuNTN</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
@@ -28,6 +31,15 @@
         <div class="nav-item px-3">
            <NavLink class="nav-link" href="/TestResultsThuNtnList">New Test Result</NavLink>
         </div>
+        @if (isLoggedIn)
+        {
+            <div class="nav-item px-3 mt-3">
+                <button class="btn btn-danger w-100" @onclick="Logout">
+                    <span class="bi bi-box-arrow-right" aria-hidden="true"></span> Đăng xuất
+                </button>
+            </div>
+        }
+
 
     </nav>
 </div>
@@ -41,4 +53,21 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
+    private async Task Logout()
+    {
+        // Xoá cookie authToken
+        await JS.InvokeVoidAsync("eval", "document.cookie = 'authToken=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC;'");
+
+        // Chuyển về trang login
+        Navigation.NavigateTo("/login", forceLoad: true);
+    }
+    private bool isLoggedIn;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var token = await JS.InvokeAsync<string>("eval", "document.cookie");
+        isLoggedIn = token.Contains("authToken=");
+    }
+
+
 }

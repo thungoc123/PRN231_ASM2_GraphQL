@@ -1,9 +1,3 @@
-C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj.AssemblyReference.cache
-C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.AssemblyInfoInputs.cache
-C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.AssemblyInfo.cs
-C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj.CoreCompileInputs.cache
-C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\bin\Debug\net8.0\wwwroot\_framework\dotnet.js
@@ -644,6 +638,13 @@ C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQ
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\bin\Debug\net8.0\icudt_CJK.dat
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\bin\Debug\net8.0\icudt_EFIGS.dat
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\bin\Debug\net8.0\icudt_no_CJK.dat
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.AssemblyInfo.cs
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.sourcelink.json
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\webcil\GraphQL.wasm
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\webcil\GraphQLParser.wasm
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\webcil\GraphQL.Client.wasm
@@ -1076,4 +1077,8 @@ C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQ
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\refint\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.dll
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.pdb
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\ref\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.dll
-C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\MyDNA.GraphQLClients.BlazorWAS.ThuNTN.sourcelink.json
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.wasm
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.wasm.gz
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Authorization.wasm
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM2_SE171992_ThuNTN\MyDNA.GraphQLClients.BlazorWAS.ThuNTN\obj\Debug\net8.0\compressed\sc1oen2b6i.gz
